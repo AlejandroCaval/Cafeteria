@@ -34,4 +34,25 @@ $(document).ready(function(){
          },500)
        })
 
+       $('btn-menu').on('click',function(e){
+        e.preventDefault();
+        $('html, body').animate({
+           scrollTop: acercaDe -100
+        },500)
+      })
+
+      $('btn-galeria').on('click',function(e){
+        e.preventDefault();
+        $('html, body').animate({
+           scrollTop: acercaDe -100
+        },500)
+      })
+
+      $('btn-ubicacion').on('click',function(e){
+        e.preventDefault();
+        $('html, body').animate({
+           scrollTop: acercaDe -100
+        },500)
+      })
+
 })
